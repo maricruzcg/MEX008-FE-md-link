@@ -1,4 +1,33 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "md-links-maricruz",
+  "version": "0.1.2",
+  "description": "## Índice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "md-links-maricruz": "bin/cli.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maricruzcg/MEX008-FE-md-link.git"
+  },
+  "keywords": [
+    "markdown",
+    "node"
+  ],
+  "author": "Maricruz Carmona Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maricruzcg/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/maricruzcg/MEX008-FE-md-link#readme"
 }
