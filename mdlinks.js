@@ -1,14 +1,16 @@
 const path = require('path');
 const fs = require('fs');
 
-//Funcion para leer archivo
+//Funcion para leer archivo, archivo tenia que cambiar nombre, porque se sobre escribia
 
-const readFile = (path) => {
-    //Crear promesa
-    const promesa = new Promise ((resolve, reject) => {
-        //Llamo al sistema de archivo
-        fs.readFile(path, "uft-8", (err, data) => {
+const analisisFile = (pathFile) => {
+    //Crear promesa, colocar return
+    return new Promise ((resolve, reject) => {
+        //Llamo al sistema de archivo, dentro de la promesa
+        fs.readFile(pathFile, "utf-8", (err, data) => {
             if(err){
+                //Si cacha el error 
+
                 reject(err.message) 
                 console.log("Tu ruta no existe")
                 
@@ -19,7 +21,7 @@ const readFile = (path) => {
     });
 };
 
-module.exports = readFile
+module.exports = analisisFile;
     // const readFile = {
         //     newReadFile : pathFile => {
             
