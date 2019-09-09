@@ -3,7 +3,7 @@ const fs = require('fs');
 
 //Funcion para leer archivo, archivo tenia que cambiar nombre, porque se sobre escribia
 
-const analisisFile = (pathFile) => {
+const analiticFile = (pathFile) => {
     //Crear promesa, colocar return
     return new Promise ((resolve, reject) => {
         //Llamo al sistema de archivo, dentro de la promesa
@@ -21,7 +21,7 @@ const analisisFile = (pathFile) => {
     });
 };
 
-module.exports = analisisFile;
+module.exports = analiticFile;
     // const readFile = {
         //     newReadFile : pathFile => {
             
