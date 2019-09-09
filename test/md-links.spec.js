@@ -1,10 +1,10 @@
-const mdLinks = require('../');
+const readFile = require('../mdlinks');
 
 
-describe('mdLinks', () => {
+describe('readFile', () => {
 
-  it('should...', () => {
-    console.log('FIX ME!');
+  it('is a function', () => {
+    expect(typeof readFile.newReadFile).toBe('function');
   });
 
 });
