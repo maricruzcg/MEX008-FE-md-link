@@ -1,4 +1,4 @@
-const readFile = require("./mdlinks");
+const readFile = require("./lib/readfile");
 //const matriz = process.argv;
 const pathFile = process.argv[2];
 
